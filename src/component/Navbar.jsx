@@ -36,19 +36,19 @@ export default function Navbar() {
                                     <img src={one} className="drop_img mx-3" />
                                     <a class="dropdown-item p-2" href="#">Form Approvals
 
-                                        <span className='drop2'>Create interactive workflows </span>
+                                        <span className='drop2'>Create interactive  </span>
                                       </a>
                                 </div>
                                 <div className="dropdown-item2 dropdown-item">
                                     <img src={two} className="drop_img mx-3" />
                                     <a class="dropdown-item p-2 " href="#">SheetGod
-                                        <p className='drop'>AI-powered Excel magic made easy!</p></a>
+                                        <p className='drop'>AI-powered Excel</p></a>
                                 </div>
                                 <div className="dropdown-item2 dropdown-item">
 
                                     <img src={three} className="drop_img mx-3" />
                                     <a class="dropdown-item p-2" href="#">Signature
-                                        <p className='drop'>AI-powered Excel magic made easy!</p>
+                                        <p className='drop'>Add Signature</p>
 
                                     </a>
                                 </div>
