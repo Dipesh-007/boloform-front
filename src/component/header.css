@@ -1,0 +1,165 @@
+.header{
+    /* height: 100vh;
+    width: 100vw; */
+    /* padding: 0 5rem; */
+    padding: 10% 0;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+}
+.para{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.child{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    /* align-items: center; */
+
+
+}
+.child2{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    
+}
+.iframe{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.iframe2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+
+}
+.heading{
+    width: 100%;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.iframeYoutube{
+    width:85%;
+  
+    height: 20rem;
+    border-radius: 10px;
+    border: 4px solid;
+    border-color: #915bff;
+
+ }
+ .text-ali{
+    text-align: left;
+ }
+ 
+ .sideScroll{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 1rem;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 9999;
+ }
+ .dot{
+    height: 13px;
+    width: 13px;
+
+     }
+
+
+ .spanDot{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    background-color: #915bff;
+    width: 9.5rem;
+    padding: 6px;
+    margin: 10px;
+    gap: 5px;
+    border-radius: 10px;
+   color: aliceblue;
+   text-align: center;
+   transform: translateX(-30px);
+   opacity: 0;
+
+ }
+ .dotSpace:hover .spanDot{
+    transition: .5s all;
+    transform: translateX(-3px);
+    opacity: 1;
+
+ }
+ .dotSpace:hover .dot{
+    display: none;
+    transition: .2s all;
+ }
+
+ a{
+    text-decoration: none;
+    color: azure;
+ }
+ .dotSpace{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+ }
+
+
+
+ @media screen and (max-width: 1430px) {
+    .iframeYoutube{
+   width: 90%;
+   height: 23rem;
+
+    }
+ }
+
+ @media screen and (max-width: 1193px) {
+    .iframeYoutube{
+   width: 95%;
+   height: 20rem;
+
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+   .parent{
+    flex-direction: column;
+   }
+ }
+
+
+.install{
+    padding: .7rem;
+    /* width: 7rem; */
+}
+.big{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+element.style {
+    width: 100%;
+    display: flex;
+}
