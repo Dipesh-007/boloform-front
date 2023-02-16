@@ -34,20 +34,20 @@ export default function Navbar() {
                             <div class="dropdown-menu p-3 " aria-labelledby="navbarDropdown">
                                 <div className="dropdown-item2 dropdown-item ">
                                     <img src={one} className="drop_img mx-3" />
-                                    <a class="dropdown-item p-2" href="#">Form Approvals
+                                    <a class="dropdown-item p-2" href="https://www.boloforms.com/form-approval/">Form Approvals
 
                                         <span className='drop2'>Create interactive  </span>
                                       </a>
                                 </div>
                                 <div className="dropdown-item2 dropdown-item">
                                     <img src={two} className="drop_img mx-3" />
-                                    <a class="dropdown-item p-2 " href="#">SheetGod
+                                    <a class="dropdown-item p-2 " href="https://www.boloforms.com/sheetgod/">SheetGod
                                         <p className='drop'>AI-powered Excel</p></a>
                                 </div>
                                 <div className="dropdown-item2 dropdown-item">
 
                                     <img src={three} className="drop_img mx-3" />
-                                    <a class="dropdown-item p-2" href="#">Signature
+                                    <a class="dropdown-item p-2" href="https://www.boloforms.com/signature/">Signature
                                         <p className='drop'>Add Signature</p>
 
                                     </a>

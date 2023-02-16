@@ -4,6 +4,13 @@ import Rotate from 'react-reveal/Rotate';
 import dot from './dot.svg'
 
 export default function Header() {
+
+
+    const handleClick=(e)=>{
+        e.preventDefault()
+        window.location.href='https://workspace.google.com/marketplace/app/form_approvals_publisher_notifications_d/674195424545?ref=website'
+    }
+    
     return (
         <div className="header">
             <div className='parent' >
@@ -62,7 +69,7 @@ export default function Header() {
 
 
                             <p className='my-4 para'>BoloForms is a Google Forms add on that allows you to add conditional logic to your forms. With BoloForms, you can create interactive workflows, approval flows & automate processes.</p>
-                            <button class="btn btn-success my-5 my-sm-0 big" type="submit"><i class="fa-solid fa-rocket mx-2 install"></i>Install for Free</button>
+                            <button class="btn btn-success my-5 my-sm-0 big" type="submit"><i class="fa-solid fa-rocket mx-2 install" onClick={handleClick}></i>Install for Free</button>
                         </div>
                         </Rotate>
                     </div>
